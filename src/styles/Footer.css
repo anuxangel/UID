@@ -1,0 +1,39 @@
+.footer {
+    background: #34495e; /* Solid background color */
+    color: white;
+    padding: 20px; /* Increased padding for better spacing */
+    text-align: center;
+    border-radius: 12px; /* More rounded corners for a softer look */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Deeper shadow for more emphasis */
+    margin-top: 30px; /* Increased space above the footer */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background and shadow */
+  }
+  
+  .footer:hover {
+    background: #2c3e50; /* Darker background on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35); /* Stronger shadow on hover */
+  }
+  
+  .footer h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.6em; /* Slightly larger font size for the title */
+    font-weight: 600; /* Slightly bolder font weight */
+  }
+  
+  .footer p {
+    margin: 10px 0; /* Margin around text */
+    font-size: 1em; /* Standard font size */
+    line-height: 1.6; /* Increased line height for readability */
+  }
+  
+  .footer a {
+    color: #f39c12; /* Bright color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 600; /* Bold links for emphasis */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: #ecf0f1; /* Lighter color on hover for contrast */
+  }
+  

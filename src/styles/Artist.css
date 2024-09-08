@@ -1,0 +1,34 @@
+.artist {
+  background: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  text-align: center;
+  max-width: 300px; /* Limit width to keep profiles neat */
+  margin: 20px auto; /* Center align and add margin */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.artist:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.artist img {
+  border-radius: 50%; /* Circular image */
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px; /* Space below image */
+}
+
+.artist h2 {
+  font-size: 1.5em; /* Larger font for name */
+  color: #333; /* Dark text for better readability */
+  margin: 0;
+}
+
+.artist p {
+  font-size: 1em; /* Standard font size */
+  color: #666; /* Gray text for less emphasis */
+  margin: 0;
+}

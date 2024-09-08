@@ -1,0 +1,56 @@
+.gallery {
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray background for a modern look */
+}
+
+.artwork-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center align items */
+}
+
+.artwork-item {
+  background: #ffffff; /* White background for items */
+  border-radius: 12px; /* Rounded corners for a modern card look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensure content stays within rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  width: calc(33.333% - 20px); /* Adjust width and account for gap */
+  height: 350px; /* Adjusted height for better balance */
+  display: flex;
+  flex-direction: column; /* Ensures content is stacked vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  margin: 0; /* Remove default margin */
+  cursor: pointer; /* Pointer cursor for hover effect */
+}
+
+.artwork-item:hover {
+  transform: scale(1.05); /* Slightly enlarge item on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.artwork-item img {
+  width: 100%;
+  height: 70%;
+  border-bottom: 2px solid #ddd; /* Subtle border below image */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.artwork-item h3 {
+  margin: 10px 15px 5px; /* Adjusted margin for a balanced look */
+  font-size: 1.2em; /* Font size for title */
+  color: #333; /* Dark text color */
+  text-align: center; /* Center align the title */
+}
+
+.artwork-item p {
+  margin: 0 15px 15px; /* Margin around description */
+  font-size: 1em; /* Standard font size */
+  color: #666; /* Gray color for description */
+  text-align: center; /* Center align the description */
+  flex-grow: 1; /* Ensures description fills the remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

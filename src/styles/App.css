@@ -1,0 +1,16 @@
+.App {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and clean font stack */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color for a fresh look */
+    color: #333; /* Dark text color for better readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+    min-height: 100vh; /* Ensure the App takes at least full viewport height */
+  }
+  
+  /* Optional: Add a global font size and styling for better consistency */
+  body {
+    font-size: 16px; /* Base font size */
+    letter-spacing: 0.5px; /* Slightly increased letter spacing */
+  }
+  

@@ -1,0 +1,41 @@
+.artwork-detail {
+  background: #ffffff; /* Clean white background */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  text-align: center;
+  max-width: 600px; /* Limit width to maintain readability */
+  margin: 20px auto; /* Center align and add vertical margin */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.artwork-detail:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.artwork-detail img {
+  border-radius: 8px; /* Rounded corners for the image */
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.artwork-detail h1 {
+  font-size: 2em; /* Larger font size for the title */
+  color: #333; /* Dark text for better readability */
+  margin: 10px 0; /* Margin around the title */
+}
+
+.artwork-detail h2 {
+  font-size: 1.5em; /* Slightly smaller than h1 for subtitling */
+  color: #555; /* Lighter color for subtitling */
+  margin: 5px 0; /* Margin around the subtitle */
+}
+
+.artwork-detail p {
+  font-size: 1em; /* Standard font size for description */
+  color: #666; /* Gray text for less emphasis */
+  line-height: 1.6; /* Line height for readability */
+  margin: 10px 0; /* Margin around the description */
+}
