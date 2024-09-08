@@ -1,0 +1,91 @@
+/* UserProfile.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    background-color: #5b9bd5;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+  }
+  
+  .profile-header img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  
+  /* Profile Name and Title */
+  .profile-header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .profile-header p {
+    font-size: 14px;
+    margin: 5px 0;
+    font-weight: 300;
+  }
+  
+  /* Profile Details */
+  .profile-details {
+    padding: 20px;
+    color: #333;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #5b9bd5;
+  }
+  
+  .profile-details p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Profile Footer */
+  .profile-footer {
+    background-color: #f4f4f9;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .profile-footer a {
+    text-decoration: none;
+    color: #5b9bd5;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .profile-footer a:hover {
+    color: #4178be;
+  }
+  
