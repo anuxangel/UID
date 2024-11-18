@@ -1,0 +1,57 @@
+.artists-page {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.artist-list {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items in case of overflow */
+  justify-content: center; /* Center the artist cards */
+  gap: 20px; /* Space between cards */
+}
+
+.artist-card {
+  background-color: white; /* White background for cards */
+  border: 1px solid #ddd; /* Light border around cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside cards */
+  width: 280px; /* Slightly wider cards for better content fit */
+  text-align: center; /* Center text */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.artist-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.artist-card img {
+  width: 100%; /* Take full width of the card */
+  height: 180px; /* Adjusted height for better image display */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+  border-radius: 5px; /* Slightly rounded image corners */
+  margin-bottom: 15px; /* Space below image */
+}
+
+h2 {
+  text-align: center; /* Centered title */
+  color: #343a40; /* Dark text for contrast */
+  font-size: 2rem; /* Larger title for better visibility */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.view-details {
+  display: inline-block; /* Make link a block for easier clicking */
+  margin-top: 10px; /* Space above link */
+  padding: 10px 15px; /* Padding for the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 5px; /* Rounded button corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text for the button */
+}
+
+.view-details:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

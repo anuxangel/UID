@@ -1,0 +1,266 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Home Container */
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #121212;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #f3e6e6;
+}
+
+.logo p {
+  font-size: 14px;
+  color: #fcecec;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-links a {
+  color: #0072ff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.auth-links a:hover {
+  color: #005f73;
+}
+
+/* Carousel Styles */
+.art-carousel {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
+  color: #1e1d1d;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  color: #f6e6e6;
+}
+
+/* Masterpieces Section */
+.masterpieces-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.masterpieces-section h2 {
+  font-size: 2rem;
+  color: #141313;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 220px;
+  height: 320px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Arrivals Section with Animation */
+.new-arrivals-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.new-arrivals-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.arrival-item {
+  width: 220px;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.arrival-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Keyframe for fadeIn Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Get Started Section */
+.get-started-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.get-started-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.get-started-section p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
+
+/* Artist Highlight Section */
+.artist-highlight-section {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.artist-highlight-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.artist-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.artist-image {
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.artist-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slick Carousel Arrows */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next {
+  right: -30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .auth-links {
+    display: none;
+  }
+
+  .carousel-image {
+    max-height: 250px;
+  }
+
+  .get-started-section {
+    padding: 40px 15px;
+  }
+
+  .get-started-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
